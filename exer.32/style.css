@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(114, 114, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.caixinha{
+    background-color: rgb(84, 84, 255);
+    padding: 20px 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 25px rgb(130, 229, 251);
+    width: 300px;
+}
+
+input{
+    padding: 10px;
+    width: 70%;
+    margin-right: 10;
+    border-radius: 20px;
+}
+
+button{
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-top: 5px;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+li{
+    padding: 10px;
+    background-color: rgb(130, 229, 251);
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+li button{
+    background-color: rgb(8, 42, 74);
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
